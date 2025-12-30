@@ -28,7 +28,8 @@ import { MyCoursesScreen } from "../screens/LearnSkillsFlow/MyCoursesScreen";
 import { LearnSkillScreen } from "../screens/LearnSkillsFlow/LearnSkillScreen";
 import { CourseDetailsScreen } from "../screens/LearnSkillsFlow/CourseDetailsScreen";
 import { CustomerServiceScreen } from "../screens/main/CustomerServiceScreen";
-import { SettingsScreen } from '../screens/main/'
+import {SettingsScreen} from '../screens/main/'
+
 const Tab = createBottomTabNavigator<MainTabParamList>();
 const Stack = createNativeStackNavigator<MainStackParamList>();
 
